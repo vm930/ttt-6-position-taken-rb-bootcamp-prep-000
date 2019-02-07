@@ -2,7 +2,7 @@
 
 def position_taken?(broad,index)
   # index = input.to_s
-  if board[index] == " "|| board[index] == "" || board[index]==nil
+  if broad[index] == " "|| broad[index] == "" || broad[index]==nil
     return false
   else
     return true
