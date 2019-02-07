@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-def position_taken?(index)
+def position_taken?(broad,index)
   # index = input.to_s
   if board[index] == " "|| board[index] == "" || board[index]==nil
     return false
