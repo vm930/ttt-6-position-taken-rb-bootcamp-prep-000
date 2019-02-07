@@ -3,13 +3,9 @@
 def position_taken?(input)
   index = input.to_s
   
-  if board[index] == " "|| board[index] == ""
+  if board[index] == " "|| board[index] == "" || board[index]==nil
     return false
-  elsif
-  
-  
-    return false
-else
-  return true
+  else
+    return true
   end
 end 
